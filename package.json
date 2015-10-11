@@ -1,0 +1,14 @@
+{
+	"name": "browser-locales",
+	"version": "0.0.1",
+	"description": "Get a list of the browsers preferred locales",
+	"repository": "srcagency/browser-locales",
+	"scripts": {
+		"build-test": "browserify test > test/bundle.js"
+	},
+	"devDependencies": {
+		"browserify": "^11.2.0"
+	},
+	"author": "Thomas Jensen <thomas@src.agency> (http://src.agency)",
+	"license": "MIT"
+}
